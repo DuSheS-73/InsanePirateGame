@@ -7,7 +7,7 @@ Shader "Custom/MultipleWaves"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _Metallic ("Metallic", Range(0,1)) = 0.0
 
-        _WaveA ("WaveA (dir, steepness, wavelenth)", Vector) = (1,0,0.5,10)
+        _WaveA ("Wave A (dir, steepness, wavelenth)", Vector) = (1,0,0.5,10)
         _WaveB ("Wave B", Vector) = (0,1,0.25,20)
         _WaveC ("Wave C", Vector) = (1,1,0.15,10)
     }
